@@ -17,8 +17,8 @@ package main
 import (
 	"github.com/pulumi/pulumi-terraform/pkg/tfbridge"
 
-	solidserver "github.com/pulumi/pulumi-solidserver"
-	"github.com/pulumi/pulumi-solidserver/pkg/version"
+	solidserver "github.com/dustinfarris/pulumi-solidserver"
+	"github.com/dustinfarris/pulumi-solidserver/pkg/version"
 )
 
 func main() {

@@ -1,0 +1,11 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/pulumi/pulumi"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/pulumi/pulumi-terraform"
+
+[[constraint]]
+  version = "v1.0.3"
+  name = "github.com/alexissavin/terraform-provider-solidserver"
