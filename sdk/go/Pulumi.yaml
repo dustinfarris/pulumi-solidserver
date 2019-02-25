@@ -1,0 +1,3 @@
+name: solidserver
+description: A Pulumi resource provider for solidserver.
+language: go

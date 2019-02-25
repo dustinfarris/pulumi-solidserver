@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true
+    },
+    "files": [
+        "config/index.ts",
+        "config/vars.ts",
+        "dNSZone.ts",
+        "device.ts",
+        "iPAddress.ts",
+        "iPAlias.ts",
+        "iPSubnet.ts",
+        "index.ts",
+        "provider.ts",
+        "utilities.ts",
+        "vLAN.ts"
+    ]
+}
+

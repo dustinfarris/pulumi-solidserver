@@ -1,0 +1,26 @@
+{
+    "name": "@pulumi/solidserver",
+    "version": "${VERSION}",
+    "description": "A Pulumi package for creating and managing solidserver cloud resources.",
+    "keywords": [
+        "pulumi",
+        "solidserver"
+    ],
+    "homepage": "https://pulumi.io",
+    "repository": "https://github.com/dustinfarris/pulumi-solidserver",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "latest"
+    },
+    "devDependencies": {
+        "@types/mime": "^2.0.0",
+        "@types/node": "^8.0.25",
+        "typescript": "^3.0.0"
+    },
+    "pulumi": {
+        "resource": true
+    }
+}
