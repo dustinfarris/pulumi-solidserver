@@ -118,6 +118,27 @@ func Provider() tfbridge.ProviderInfo {
 			// 		"tags": {Type: makeType(mainPkg, "Tags")},
 			// 	},
 			// },
+			"solidserver_device": {
+				Tok: makeResource(mainMod, "Device"),
+			},
+			"solidserver_vlan": {
+				Tok: makeResource(mainMod, "VLAN"),
+			},
+			"solidserver_ip_subnet": {
+				Tok: makeResource(mainMod, "IPSubnet"),
+			},
+			"solidserver_ip_address": {
+				Tok: makeResource(mainMod, "IPAddress"),
+			},
+			"solidserver_ip_alias": {
+				Tok: makeResource(mainMod, "IPAlias"),
+			},
+			"solidserver_dns_zone": {
+				Tok: makeResource(mainMod, "DNSZone"),
+			},
+			"solidserver_dns_record": {
+				Tok: makeResource(mainMod, "DNSRecord"),
+			},
 		},
 		DataSources: map[string]*tfbridge.DataSourceInfo{
 			// Map each resource in the Terraform provider to a Pulumi function. An example
