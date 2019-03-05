@@ -9,3 +9,8 @@
 [[constraint]]
   version = "v1.0.3"
   name = "github.com/alexissavin/terraform-provider-solidserver"
+
+[[constraint]]
+  version = "v1.0.3"
+  name = "github.com/terraform-providers/terraform-provider-solidserver"
+  source = "github.com/alexissavin/terraform-provider-solidserver"
